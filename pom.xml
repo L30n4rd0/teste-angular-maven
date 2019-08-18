@@ -47,7 +47,7 @@
 				<!-- optional -->
 				<configuration>
 					<workingDirectory>src/main/AngularAppSource</workingDirectory>
-					<installDirectory>src/main/AngularAppSource/nodoInstallDirectory</installDirectory>
+					<installDirectory>src/main/AngularAppSource/nodeInstallDirectory</installDirectory>
 				</configuration>
 
 				<executions>

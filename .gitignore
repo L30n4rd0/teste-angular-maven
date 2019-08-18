@@ -9,7 +9,7 @@
 /src/main/AngularAppSource/tmp
 /src/main/AngularAppSource/app/**/*.js
 /src/main/AngularAppSource/app/**/*.js.map
-/src/main/AngularAppSource/nodoInstallDirectory
+/src/main/AngularAppSource/nodeInstallDirectory
 
 # dependencies
 /src/main/AngularAppSource/node_modules
