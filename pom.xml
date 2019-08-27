@@ -47,7 +47,7 @@
 				<!-- optional -->
 				<configuration>
 					<workingDirectory>src/main/AngularAppSource</workingDirectory>
-					<installDirectory>src/main/AngularAppSource/nodeInstallDirectory</installDirectory>
+					<installDirectory>${user.home}/workspace/nodeInstallDirectory</installDirectory>
 				</configuration>
 
 				<executions>
@@ -83,6 +83,7 @@
 						<goals>
 							<goal>npm</goal>
 						</goals>
+						<phase>generate-resources</phase>
 						<configuration>
 							<!-- Este comando chama o 'ng' build para criar os arquivos de build -->
 							<!-- É obrigatório o uso do traço-traço antes de indicar parâmetros, -->
